@@ -20,6 +20,7 @@ int main(){
             return 0;
         }else{
             if(e[0]==0){
+                //需要再考虑只有常数项的不能省略
                 printf("0 0\n");
                 return 0;
             }else{
