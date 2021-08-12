@@ -19,11 +19,14 @@ int main(){
             printf("0 0\n");
             return 0;
         }else{
-            if(e[i]){
-                if(f++==0){
+            if(e[0]==0){
+                printf("0 0\n");
+                return 0;
+            }else{
+                if(e[i]){
+                    if(f++!=0)
+                        printf(" ");
                     printf("%d %d",a[i]*e[i],e[i]-1);
-                }else{
-                    printf(" %d %d",a[i]*e[i],e[i]-1);
                 }
             }
         }
