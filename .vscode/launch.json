@@ -1,14 +1,17 @@
+//调试
+//配置绝对地址
 {
     // 使用 IntelliSense 了解相关属性。 
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Debug C/C++",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "D:\\1Auniversity\\GitHub\\PAT-Basic-Level\\a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -29,7 +32,7 @@
             "name": "Run C/C++",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "D:\\1Auniversity\\GitHub\\PAT-Basic-Level\\a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
